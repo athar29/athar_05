@@ -1,2 +1,3 @@
-git config --global user.name athar29
-git config --global user.email cse.23bcse39@silicon.ac.in
+git config --global user.name "athar29"
+git config --global user.email "cse.23bcse39@silicon.ac.in"
+
