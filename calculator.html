@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+<title>
+    CALCULATOR
+</title>
+<style>
+    .main{
+        border: 5px solid black;
+        background-color: grey;
+        height:450px;
+        width: 300px;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10% 40% 5%;
+    }
+    .display{
+        border: 5px solid black;
+        background-color: greenyellow;
+        height: 120px;
+        border-radius: 10px;
+        display: flex;
+        justify-content:end;
+        align-items: center;
+        font-size: 80px;
+    }
+    .buttonBox{
+        height: 300px;
+        margin-top: 10px;
+        display:grid;
+        grid-template-columns: repeat(4,70px);
+        gap: 5px;
+    }
+    .button{
+        background-color: aliceblue;
+        border: 4px solid black;
+        border-radius: 10px;
+        font-size: 60px;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    
+</style>
+</head>
+<body style="background-color: skyblue;">
+    <div class="main">
+        <div class="display">0</div>
+        <div class="buttonBox">
+            <button class="button">7</button><button class="button">8</button><button class="button">9</button><button class="button">÷</button>
+            <button class="button">4</button><button class="button">5</button><button class="button">6</button><button class="button">×</button>
+            <button class="button">1</button><button class="button">2</button><button class="button">3</button><button class="button">−</button>
+            <button class="button">0</button><button class="button">.</button><button class="button">+</button><button class="button" style="background-color: orange;">=</button>
+        </div>
+    </div>
+</body>
